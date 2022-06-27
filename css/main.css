@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/transfonter.org-20220619-040524/'OpenSans-Regular.woff2') format('woff2'),
+        url(../font/transfonter.org-20220619-040524/ 'OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/transfonter.org-20220619-040524/'OpenSans-Bold.woff2') format('woff2'),
+        url(../font/transfonter.org-20220619-040524/'OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "open sans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/*----------------------------------------header-------------------------------*/
+.site-header {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-hero {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.header-link:hover {
+    opacity: 0.8;
+}
+
+.header-link:active {
+    opacity: 0.4;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.header-items {
+    margin-right: 32px;
+
+}
+
+.header-items-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.header-tel-link {
+    width: 159px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    border: 3px solid #00BAFC;
+    font-weight: 700px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header-tel-link:hover {
+    background-color: #FFFFFF;
+    color: #00BAFC;
+    border-color: #00BAFC;
+}
+
+.header-tel-link:active {
+    background-color: rgba(0, 186, 252, 0.6);
+    color: #FFFFFF;
+}
